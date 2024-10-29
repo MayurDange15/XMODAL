@@ -73,6 +73,7 @@ const XModal = () => {
                   name="username"
                   value={formData.username}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div>
@@ -84,6 +85,7 @@ const XModal = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div>
@@ -95,6 +97,7 @@ const XModal = () => {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <div>
@@ -106,6 +109,7 @@ const XModal = () => {
                   name="dob"
                   value={formData.dob}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <button type="submit" className="submit-button">
